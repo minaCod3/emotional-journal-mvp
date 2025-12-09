@@ -1,0 +1,109 @@
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                 │
+│          📔 EMOTIONAL JOURNAL MVP - GETTING STARTED 📔          │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+Congratulations! Your emotional journaling platform is ready.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ QUICK START (3 Steps)
+
+1. Open Terminal/Command Prompt
+
+2. Navigate to project:
+   cd /Users/davide/C/unitn-business/emotional_journal_mvp
+
+3. Run ONE of these commands:
+
+   OPTION A - Automated (Recommended):
+   ./quick_start.sh
+
+   OPTION B - Manual:
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   streamlit run app.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 FIRST RUN NOTES
+
+→ First run downloads AI models (~300MB) - takes 2-5 minutes
+→ The app will open automatically at http://localhost:8501
+→ All data is stored locally (no internet needed after setup)
+→ Sample data available: python create_sample_data.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 PROJECT STRUCTURE
+
+emotional_journal_mvp/
+├── app.py                    ← Main application
+├── utils/                    ← Core modules
+│   ├── data_manager.py       ← Database operations
+│   ├── sentiment_analyzer.py ← AI sentiment analysis
+│   └── visualizations.py     ← Charts and graphs
+├── data/                     ← Your journal database
+├── README.md                 ← Full documentation
+├── PROJECT_SUMMARY.md        ← Technical details
+└── QUICK_REFERENCE.md        ← Command cheat sheet
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ FEATURES INCLUDED
+
+✅ AI-Powered Sentiment Analysis
+✅ Interactive Mood Trend Charts
+✅ Emotion Detection & Keywords
+✅ Streak Tracking
+✅ Pattern Recognition
+✅ Word Cloud Visualizations
+✅ Advanced Search & Filtering
+✅ CSV Export
+✅ 100% Local & Private
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 DOCUMENTATION
+
+README.md              → Complete user guide (423 lines)
+PROJECT_SUMMARY.md     → Technical overview & stats
+QUICK_REFERENCE.md     → Command cheat sheet
+GET_STARTED.txt        → This file
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 NEXT STEPS
+
+1. Start the application (see Quick Start above)
+2. Create your first journal entry
+3. Explore the dashboard and insights
+4. (Optional) Generate sample data for testing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ NEED HELP?
+
+→ Check README.md for troubleshooting
+→ All data stored in: data/journal_entries.db
+→ Backup: Just copy the data/ folder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔒 PRIVACY
+
+✓ 100% local storage
+✓ No cloud sync
+✓ No user accounts
+✓ No tracking
+✓ Your data stays on your device
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Ready to start journaling! 🚀
+
+Run: ./quick_start.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
